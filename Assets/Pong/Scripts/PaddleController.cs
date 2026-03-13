@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PaddleController : MonoBehaviour
 {
-    public float speed = 10f;
-    public float limit = 4f;
+    public float speed = 12f;
+    public float limit = 3.5f;
 
     public KeyCode upKey = KeyCode.W;
     public KeyCode downKey = KeyCode.S;
@@ -22,5 +22,18 @@ public class PaddleController : MonoBehaviour
         Vector3 pos = transform.position;
         pos.y = Mathf.Clamp(pos.y, -limit, limit);
         transform.position = pos;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        BallController ball = collision.gameObject.GetComponent<BallController>();
+
+        if (ball != null)
+        {
+            bool isLeftPaddle = transform.position.x < 0;
+            float paddleHeight = transform.localScale.y;
+
+            ball.BounceFromPaddle(transform.position.y, paddleHeight, isLeftPaddle);
+        }
     }
 }
