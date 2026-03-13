@@ -1,38 +1,40 @@
 fileFormatVersion: 2
-guid: 5f67602c85a27a847aed4d15b8e0339e
-AssetOrigin:
-  serializedVersion: 1
-  productId: 155360
-  packageName: Pixel Adventure 1
-  packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Traps/Trampoline/Jump (28x28).png
-  uploadId: 332803
+guid: 2f6e5f19d7eba1a4987c4be4c44ebcbe
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3008879249828299126
-    second: Jump (28x28)_0
+      213: 4139047341703218280
+    second: PhysicalImpact_0
   - first:
-      213: 4681692366024343091
-    second: Jump (28x28)_1
+      213: 5445119158737962437
+    second: PhysicalImpact_1
   - first:
-      213: -4280839998127415039
-    second: Jump (28x28)_2
+      213: -3572978376760329660
+    second: PhysicalImpact_2
   - first:
-      213: 6018414194862253689
-    second: Jump (28x28)_3
+      213: -537010727338905927
+    second: PhysicalImpact_3
   - first:
-      213: 3596417087806819594
-    second: Jump (28x28)_4
+      213: 112414084676681379
+    second: PhysicalImpact_4
   - first:
-      213: 6008391082630914036
-    second: Jump (28x28)_5
+      213: 6849514354388945100
+    second: PhysicalImpact_5
   - first:
-      213: 6130167964694822903
-    second: Jump (28x28)_6
+      213: -1435189056588399335
+    second: PhysicalImpact_6
   - first:
-      213: 4513304123404435328
-    second: Jump (28x28)_7
+      213: -5683920013040335912
+    second: PhysicalImpact_7
+  - first:
+      213: 5623912540479660114
+    second: PhysicalImpact_8
+  - first:
+      213: 2320161475664243557
+    second: PhysicalImpact_9
+  - first:
+      213: 5896066352476250727
+    second: PhysicalImpact_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -65,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -94,16 +96,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,177 +130,243 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jump (28x28)_0
+      name: PhysicalImpact_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 28
-        height: 28
+        x: 72
+        y: 70
+        width: 49
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f11d99c5f3b1e3440a58c630f5f565f3
-      internalID: -3008879249828299126
+      spriteID: 864cebea0a9d07930800000000000000
+      internalID: 4139047341703218280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_1
+      name: PhysicalImpact_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 0
-        width: 28
-        height: 28
+        x: 231
+        y: 40
+        width: 114
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cc6cddea24ab0cc44837d79d06c500ee
-      internalID: 4681692366024343091
+      spriteID: 5c500408603f09b40800000000000000
+      internalID: 5445119158737962437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_2
+      name: PhysicalImpact_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 0
-        width: 28
-        height: 28
+        x: 408
+        y: 26
+        width: 137
+        height: 138
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ffccdbfec87e16a4cb95b0d668dee487
-      internalID: -4280839998127415039
+      spriteID: 44a7c07c81b3a6ec0800000000000000
+      internalID: -3572978376760329660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_3
+      name: PhysicalImpact_3
       rect:
         serializedVersion: 2
-        x: 84
-        y: 0
-        width: 28
-        height: 28
+        x: 585
+        y: 26
+        width: 164
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c3f4a1a002e27554590a92b140a4159a
-      internalID: 6018414194862253689
+      spriteID: 9bee364b6972c88f0800000000000000
+      internalID: -537010727338905927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_4
+      name: PhysicalImpact_4
       rect:
         serializedVersion: 2
-        x: 112
-        y: 0
-        width: 28
-        height: 28
+        x: 812
+        y: 99
+        width: 44
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6ac6ac8c36dc73748a9c0a37b06206af
-      internalID: 3596417087806819594
+      spriteID: 3ae77e0b3006f8100800000000000000
+      internalID: 112414084676681379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_5
+      name: PhysicalImpact_5
       rect:
         serializedVersion: 2
-        x: 140
-        y: 0
-        width: 28
-        height: 28
+        x: 857
+        y: 16
+        width: 29
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5197378fbff6b9e428a574f27e7610e9
-      internalID: 6008391082630914036
+      spriteID: cc8ca49d30d5e0f50800000000000000
+      internalID: 6849514354388945100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_6
+      name: PhysicalImpact_6
       rect:
         serializedVersion: 2
-        x: 168
-        y: 0
-        width: 28
-        height: 28
+        x: 865
+        y: 104
+        width: 13
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0b83726f6f9d30d4dbaedf625932d8da
-      internalID: 6130167964694822903
+      spriteID: 91d3580382f251ce0800000000000000
+      internalID: -1435189056588399335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump (28x28)_7
+      name: PhysicalImpact_7
       rect:
         serializedVersion: 2
-        x: 196
-        y: 0
-        width: 28
-        height: 28
+        x: 878
+        y: 72
+        width: 69
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3a27820aa43264f4987ee5faeb8364c3
-      internalID: 4513304123404435328
+      spriteID: 8d34ff2ecd8ae11b0800000000000000
+      internalID: -5683920013040335912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhysicalImpact_8
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 90
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250a727a8a62c0e40800000000000000
+      internalID: 5623912540479660114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhysicalImpact_9
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 44
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b6382c19ed23020800000000000000
+      internalID: 2320161475664243557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PhysicalImpact_10
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 49
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762ea7fdb1903d150800000000000000
+      internalID: 5896066352476250727
       vertices: []
       indices: 
       edges: []
@@ -307,7 +375,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -317,14 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jump (28x28)_0: -3008879249828299126
-      Jump (28x28)_1: 4681692366024343091
-      Jump (28x28)_2: -4280839998127415039
-      Jump (28x28)_3: 6018414194862253689
-      Jump (28x28)_4: 3596417087806819594
-      Jump (28x28)_5: 6008391082630914036
-      Jump (28x28)_6: 6130167964694822903
-      Jump (28x28)_7: 4513304123404435328
+      PhysicalImpact_0: 4139047341703218280
+      PhysicalImpact_1: 5445119158737962437
+      PhysicalImpact_10: 5896066352476250727
+      PhysicalImpact_2: -3572978376760329660
+      PhysicalImpact_3: -537010727338905927
+      PhysicalImpact_4: 112414084676681379
+      PhysicalImpact_5: 6849514354388945100
+      PhysicalImpact_6: -1435189056588399335
+      PhysicalImpact_7: -5683920013040335912
+      PhysicalImpact_8: 5623912540479660114
+      PhysicalImpact_9: 2320161475664243557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

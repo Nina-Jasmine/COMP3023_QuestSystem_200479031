@@ -3,8 +3,8 @@ using UnityEngine;
 public class BallController : MonoBehaviour
 {
     public float speed = 10f;
-    public float speedIncrease = 1f;
-    public float maxSpeed = 16f;
+    public float speedIncrease = 2f;
+    public float maxSpeed = 20f;
     private AudioSource audioSource;
 
     private Rigidbody2D rb;
@@ -55,5 +55,13 @@ public class BallController : MonoBehaviour
         {
             audioSource.Play();
         }
+    }
+    public void StopBall()
+    {
+        rb.linearVelocity = Vector2.zero;
+    }
+    public void HideBall()
+    {
+        gameObject.SetActive(false);
     }
 }
