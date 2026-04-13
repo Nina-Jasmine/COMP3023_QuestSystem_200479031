@@ -5,8 +5,9 @@ public class BallController : MonoBehaviour
     public float speed = 10f;
     public float speedIncrease = 2f;
     public float maxSpeed = 20f;
-    private AudioSource audioSource;
+    private float initialSpeed;
 
+    private AudioSource audioSource;
     private Rigidbody2D rb;
     private int launchDirection = 1;
 
@@ -14,6 +15,7 @@ public class BallController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         audioSource = GetComponent<AudioSource>();
+        initialSpeed = speed;
         LaunchBall();
     }
 
@@ -34,6 +36,11 @@ public class BallController : MonoBehaviour
         LaunchBall();
     }
 
+    public void ResetSpeed()
+    {
+        speed = initialSpeed;
+    }
+
     public void IncreaseSpeed()
     {
         speed = Mathf.Min(speed + speedIncrease, maxSpeed);
@@ -49,17 +56,18 @@ public class BallController : MonoBehaviour
 
         rb.linearVelocity = newDirection * speed;
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (audioSource != null)
-        {
             audioSource.Play();
-        }
     }
+
     public void StopBall()
     {
         rb.linearVelocity = Vector2.zero;
     }
+
     public void HideBall()
     {
         gameObject.SetActive(false);
